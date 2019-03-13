@@ -70,7 +70,6 @@ when topic = "politics"
   self.happiness=(happiness - 2)
   "blah blah partisan blah lobbyist"
 when topic = "weather"
-
   self.happiness=(happiness + 1)
   person.hapiness=(person.happiness + 1)
   "blah blah sun blah rain"
