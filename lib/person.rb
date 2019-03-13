@@ -62,8 +62,6 @@ return "Hi #{friend.name}! It's #{self.name}. How are you?"
 end
 
 def start_conversation(person, topic)
-  #@topic = topic
-#@name = person
 case topic
 when topic = "politics"
   person.hapiness=(person.happiness - 2)
