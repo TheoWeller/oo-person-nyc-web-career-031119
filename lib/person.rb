@@ -70,9 +70,10 @@ when topic = "politics"
   #self.happiness=(happiness - 2)
   #person.hapiness=(person.happiness - 2)
 when topic = "weather"
-  "blah blah sun blah rain"
-self.happiness=(happiness + 1)
+
+  self.happiness=(happiness + 1)
   person.hapiness=(person.happiness + 1)
+  "blah blah sun blah rain"
 else
   "blah blah blah blah blah"
 end
